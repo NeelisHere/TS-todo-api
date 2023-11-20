@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",                             
+    "rootDir": "./src",                                
+    "outDir": "./build",           
+    "esModuleInterop": true,                              
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                 
+    "skipLibCheck": true                    
+  },
+  "include": [
+    "src/**/*.ts", // Adjust the path to match your project structure
+    "./express.d.ts" // Include the declaration file
+  ]
+}
